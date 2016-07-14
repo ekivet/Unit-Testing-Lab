@@ -26,4 +26,9 @@ public class Zoo {
     public ArrayList<Animal> getAnimals(){
         return animals;
     }
+
+    //created method to remove animal from zoo
+    public void removeAnimal (Animal animal){
+        animals.remove(animal);
+    }
 }
